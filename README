@@ -1,0 +1,8 @@
+This is a small c++ library containing a complex-number capable implementation of the polygamma function. It's primary interface is the function
+
+template<T>
+std::complex<T> pGamma(int m, std::complex<T> z)
+
+which calculates the m-th derivative of the diGamma function, at point z.
+
+The library can be used by simply including the polygamma.hpp header. The test.cpp program calculates a number of test values for use in testing the implementation.
